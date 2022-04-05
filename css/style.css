@@ -1,0 +1,246 @@
+/*Set*/
+
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body {
+   font-family: "Roboto", sans-serif;
+}
+
+.main {
+   max-width: 1440px;
+   margin: 20px auto;
+}
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+
+/*/Set*/
+
+/*first part*/
+.first-part_set {
+   min-height: 715px;
+   background-color: #F5F5F5;
+   position: relative;
+   padding: 80px 0 0 0;
+}
+
+.first-part_set::before {
+   content: '';
+   width: 1018px;
+   height: 1544px;
+   position: absolute;
+   background: url('../img/first/Blob-1.svg') 0 0 no-repeat;
+   top: -1480px;
+   left: 0;
+}
+
+.first-part-main_set {
+   background-color: #29C3BE;
+   min-height: 580px;
+}
+
+.first-part-main_set::before {
+   content: '';
+   width: 680px;
+   height: 429px;
+   position: absolute;
+   background: url('../img/first/Blob-2.svg') 0 0 no-repeat;
+   top: 80px;
+   left: 630px;
+}
+
+.first-part_set::after {
+   content: '';
+   width: 498px;
+   height: 315px;
+   background: url('../img/first/dog.png') 0 0 no-repeat;
+   position: absolute;
+   top: 0;
+   left: 50%;
+   transform: translate(20px, 0);
+}
+
+.first-part-content_set {
+   max-width: 1020px;
+   margin: 0px auto;
+}
+
+.first-part-content__logo {
+   display: inline-block;
+   margin: 112px 0 32px 0;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 24px;
+   color: #ffffff;
+   letter-spacing: 2.5px;
+   position: relative;
+}
+
+.first-part-content__logo::before {
+   content: '';
+   background: url('../img/first/logo.svg') -5px -6px no-repeat;
+   padding-right: 35px;
+}
+
+.first-part-content__text {
+   max-width: 411px;
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #FFFFFF;
+   margin-bottom: 80px;
+}
+
+/*Flex part*/
+
+.first-part-row_set {
+   display: flex;
+   justify-content: space-between;
+}
+
+.first-part-row__value {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #FFFFFF;
+   display: inline-block;
+   max-height: 42px;
+   margin-bottom: 3px;
+}
+
+.first-part-row__description {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #5D62B5;
+   display: inline-block;
+}
+
+.first-part-row__textarea {
+   max-width: 150px;
+   display: inline-block;
+   margin-left: 11px;
+}
+
+.first-part-banner_set {
+   min-width: 1020px;
+   min-height: 150px;
+   background-color: #5D62B5;
+   border-radius: 18px;
+   padding: 43px 70px 46px 70px;
+   transform: translate(0px, 90px);
+}
+
+.first-part-banner-row {
+   display: flex;
+   justify-content: space-between;
+}
+
+.first-part-banner-row__text {
+   flex: 0 1 562px;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 30px;
+   color: #FFFFFF;
+}
+
+.first-part-banner-row__button {
+   display: inline-block;
+   margin: 5px 0 0 0;
+   padding: 11px 0;
+   border-radius: 5px;
+   flex: 0 1 220px;
+   max-height: 48px;
+   background-color: #F2726F;
+   color: #FFFFFF;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 24px;
+   text-align: center;
+   letter-spacing: 0.15px;
+   text-transform: uppercase;
+}
+
+/*/first part*/
+
+/*second part*/
+.checkpoint_set {
+   margin: 50px 0;
+   text-align: center;
+   font-style: oblique;
+   font-size: 22px;
+}
+
+.second-part_set {
+   max-width: 1020px;
+   margin: 0px auto;
+}
+
+.second-part__promise {
+   display: inline-block;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 24px;
+   letter-spacing: 2.5px;
+   color: #5D62B5;
+   position: relative;
+   padding-left: 34px;
+   margin-bottom: 33px;
+}
+
+.second-part__promise::before {
+   content: '';
+   width: 19px;
+   height: 19px;
+   background: url('../img/second/logo2.svg') 0 0 no-repeat;
+   position: absolute;
+   transform: translate(-34px, -1px);
+}
+
+.second-part__text {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #000000;
+   margin-bottom: 68px;
+}
+
+.second-part-row_set {
+   display: flex;
+   gap: 24px;
+}
+
+.second-part-row__card {
+   display: flex;
+   flex: 0 0 324px;
+   min-height: 85px;
+   gap: 23px;
+}
+
+.second-part-row__description {
+   font-weight: 900;
+   font-size: 19px;
+   line-height: 26px;
+   color: #F2726F;
+   margin-bottom: 20px;
+}
+
+.second-part-row__text {
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #4B4B4B;
+}
+
+.second-part-row__textarea {
+   flex: 1 1 235px;
+}
+
+.second-part-row__img {
+   flex: 0 1 63px;
+   max-height: 63px;
+}
